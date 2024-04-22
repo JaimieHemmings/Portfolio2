@@ -1,0 +1,76 @@
+.hero-wrap {
+    height: 100vh;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.hero-wrap .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.hero-wrap .subheading {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #d5c455;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.8;
+}
+
+.hero-wrap h1 {
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 700;
+    color: #222222;
+    font-size: 80px;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.overlay {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    min-height: 100%;
+    width: 50%;
+    background-color:#222222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+}
+
+.overlay:after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh !important;
+    top: 0;
+    height: 0;
+    background-color: rgba(255,255,255,0.4);
+}
+
+@media screen and (max-width: 1140px) {
+    .hero-wrap h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .overlay {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .overlay:after {
+        background-color: rgba(255,255,255,0.9);
+    }
+}

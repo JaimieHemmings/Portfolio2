@@ -1,0 +1,51 @@
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact h1 {
+    text-align: center;
+    font-weight: 600;
+    color: #222222;
+    font-size: 40px;
+    padding-bottom: 75px;
+    display: block;
+    width: 100%;
+}
+
+.leaflet-container {
+    min-height: 350px;
+    z-index: 1;
+}
+
+.contact .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact .container .col-6 {
+    flex: 0 0 50%;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #222;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact ul li {
+    flex: 0 0 auto;
+    font-size: 30px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact .container .col-6 {
+        flex: 0 0 100%;
+    }
+}

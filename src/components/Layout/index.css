@@ -1,0 +1,149 @@
+.navbar {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background: rgba(255,255,255,0.9);
+}
+
+.navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: inherit;
+    flex-wrap: inherit;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.navbar-brand span {
+    color: #222222;
+    display: block;
+    line-height: 1.1;
+}
+
+.navbar button {
+    display: block;
+    width: 18px;
+    position: relative;
+    height: 26px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navbar button span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: #222;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.3s ease-out;
+}
+
+.navbar button span:before {
+    transition: 0.3s ease-out;
+    content: "";
+    width: 18px;
+    position: absolute;
+    height: 2px;
+    background: #222;
+    left: 0;
+    top: -5px;
+}
+
+.navbar button span:after {
+    transition: 0.3s ease-out;
+    content: "";
+    width: 18px;
+    position: absolute;
+    height: 2px;
+    background: #222;
+    left: 0;
+    top: 5px;
+}
+
+.navbar-toggler.toggled span {
+    background-color: rgba(255,255,255,0);
+}
+
+.navbar-toggler.toggled span:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.navbar-toggler.toggled span:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+
+.nav-items {
+    position: absolute;
+    top: 34px;
+    right: 0px;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    background: #fff;
+    padding: 15px;
+}
+
+.nav-items.show {
+    opacity: 1;
+}
+
+.navbar-nav {
+    padding: 0;
+    margin: 0;
+    columns: 1;
+}
+
+.navbar-nav li {
+    display: block;
+}
+
+.navbar-nav li a {
+    color: #222;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px;
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    transition: color 0.3s ease-out;
+}
+
+.navbar-nav li a:hover {
+    color: red;
+}
