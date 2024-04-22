@@ -33,7 +33,7 @@ const About = () => {
             </div>
             <div className="container flex">
                 <div className="col-6">
-                    <img src={ProfileIMG} />
+                    <img src={ProfileIMG} alt="Profile Image" />
                 </div>
                 <div className="col-6">
                     <span className="subheading">
