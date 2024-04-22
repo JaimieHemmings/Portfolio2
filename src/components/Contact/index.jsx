@@ -1,11 +1,25 @@
 import { Link } from 'react-router-dom'
+import { MapContainer, TileLayer } from 'react-leaflet'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import {
+    faLinkedin,
+    faGithub,
+} from '@fortawesome/free-brands-svg-icons'
+import {
+    faEnvelope,
+} from '@fortawesome/free-solid-svg-icons'
+import 'leaflet/dist/leaflet.css'
 import './index.css'
 
 const Contact = () => {
     return (
+    <>
+        <MapContainer center={[50.4053486, -4.7858366]} zoom={10} scrollWheelZoom={false}>
+            <TileLayer
+                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            </MapContainer>
         <section className="contact">
             <div className="container">
                 <h1>Contact</h1>
@@ -44,6 +58,7 @@ const Contact = () => {
                 </div>
             </div>
         </section>
+    </> 
     )
 }
 
