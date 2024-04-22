@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
+import Layout from '../Layout'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faPython,
@@ -27,6 +28,7 @@ const About = () => {
 
     return (
         <>
+        <Layout />
         <section className="about-me">
             <div className="container">
                 <h1>About Me</h1>

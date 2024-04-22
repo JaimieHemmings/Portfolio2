@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Layout from '../Layout'
 import { MapContainer, TileLayer } from 'react-leaflet'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -14,6 +15,7 @@ import './index.css'
 const Contact = () => {
     return (
     <>
+        <Layout />
         <MapContainer center={[50.4053486, -4.7858366]} zoom={10} scrollWheelZoom={false}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

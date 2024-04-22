@@ -1,9 +1,12 @@
 import { Link } from 'react-router-dom'
 import ProfileImg from '../../assets/selfie.jpg'
 import './index.css'
+import Layout from '../Layout'
 
 const Home = () => {
     return (
+        <>
+        <Layout />
         <section className="hero-wrap">
             <div className="container">
                 <span className="subheading">Web Developer</span>
@@ -19,6 +22,7 @@ const Home = () => {
 
             </div>
         </section>
+        </>
     )
 }
 

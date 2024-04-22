@@ -1,9 +1,12 @@
 import './index.css'
 import NovaPage from '../../assets/nova-landing.png'
 import NovaMobile from '../../assets/nova-mobile.png'
+import Layout from '../Layout'
 
 const Portfolio = () => {
     return (
+        <>
+        <Layout />
         <section className="portfolio">
             <div className="container">
                 <h1>Portfolio</h1>
@@ -28,6 +31,7 @@ const Portfolio = () => {
                 </div>
             </div>
         </section>
+        </>
     )
 }
 

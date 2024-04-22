@@ -4,9 +4,12 @@ import {
     faLocationPin,
     faBriefcase
   } from '@fortawesome/free-solid-svg-icons'
+import Layout from '../Layout'
 
 const Experience = () => {
     return (
+        <>
+        <Layout />
         <section className="experience">
             <div className="container">
                 <h1>Experience</h1>
@@ -80,6 +83,7 @@ const Experience = () => {
                 </div>
             </div>
         </section>
+        </>
     )
 }
 
