@@ -45,6 +45,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .contact .container {
+        flex-wrap: wrap;
+    }
+
     .contact .container .col-6 {
         flex: 0 0 100%;
     }
