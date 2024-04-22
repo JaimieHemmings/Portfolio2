@@ -1,6 +1,5 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import './index.css'
 
 const Layout = () => {
