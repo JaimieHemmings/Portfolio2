@@ -11,7 +11,7 @@ const Layout = () => {
     };
 
     return (
-        <div className="App">
+        <>
             <nav className="navbar">
                 <div className="container">
                     <Link to="/" className="navbar-brand align-items-center">
@@ -46,7 +46,7 @@ const Layout = () => {
                 </div>
             </nav>
             <Outlet />
-        </div>
+        </>
     )
 }
 
