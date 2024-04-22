@@ -1,15 +1,15 @@
-import './index.css'
 import { Link } from 'react-router-dom'
-import { MapContainer, TileLayer, useMap } from 'react-leaflet'
-import 'leaflet/dist/leaflet.css';
+import { MapContainer, TileLayer } from 'react-leaflet'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faLinkedin,
     faGithub,
-  } from '@fortawesome/free-brands-svg-icons'
-  import {
+} from '@fortawesome/free-brands-svg-icons'
+import {
     faEnvelope,
-  } from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons'
+import 'leaflet/dist/leaflet.css'
+import './index.css'
 
 const Contact = () => {
     return (
