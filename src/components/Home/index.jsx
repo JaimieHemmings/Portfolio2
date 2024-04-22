@@ -8,7 +8,10 @@ const Home = () => {
             <div className="container">
                 <span className="subheading">Web Developer</span>
                 <h1>I'm Jaimie <br />Hemmings</h1>
-                <p><Link to="/about" className="btn btn-primary">More about me &#62;</Link> <a href="/" className="btn btn-white">Hire me &#62;</a></p>
+                <p>
+                    <Link to="/about" className="btn btn-primary">More about me &#62;</Link>
+                    <Link to="/contact" className="btn btn-white">Hire me &#62;</Link>
+                </p>
             </div>
             <div className="overlay" style={{ 
                 backgroundImage: `url(${ProfileImg})` 
