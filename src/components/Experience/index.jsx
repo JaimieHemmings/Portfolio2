@@ -70,28 +70,6 @@ const Experience = () => {
                         <p></p>
                     </div>
                 </div>
-                <div className="col-6">
-                    <div className="wrap">
-                        <div className="icon">
-                            <FontAwesomeIcon icon={faBriefcase} color="#fff" />
-                        </div>
-                        <span className="date">2014</span>
-                        <h2>Software tester</h2>
-                        <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Caerphilly</span>
-                        <p>I played an important part in handling the quality assurance and bug finding in a complex international GPS based tracking software</p>
-                    </div>
-                </div>
-                <div className="col-6">
-                    <div className="wrap">
-                        <div className="icon">
-                            <FontAwesomeIcon icon={faBriefcase} color="#fff" />
-                        </div>
-                        <span className="date">2013</span>
-                        <h2>Technical Support</h2>
-                        <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Peripatetic</span>
-                        <p>Providing remote and on-site support, I was the first point of contact for customers seeking technical assistance. Using my experience and knowledge I assisted in resolving the issue remotely or escalating the issue where necassary.</p>
-                    </div>
-                </div>
             </div>
         </section>
         </>
