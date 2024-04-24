@@ -20,10 +20,16 @@ const Experience = () => {
                         <div className="icon">
                             <FontAwesomeIcon icon={faBriefcase} color="#fff" />
                         </div>
-                        <span className="date">2022</span>
-                        <h2>Field Services Engineer</h2>
-                        <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Peripatetic</span>
-                        <p>A peripatetic role where I worked as part of a large team to handle the deployment expansion, troubleshooting and maintenance of fiber optic broadband. </p>
+                        <span className="date">2021</span>
+                        <h2>Frontend Developer</h2>
+                        <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Cardiff</span>
+                        <p>Working in an agile environment I was responsible for building the 
+                        client-side portions of websites with a custom C# CMS using various 
+                        technologies including HTML, CSS and JavaScript, along with numerous 
+                        frameworks such as SASS, React and bootstrap. All websites were 
+                        developed with a mobile first mindset and I worked alongside a team 
+                        of UI/UX designers and QA to ensure the website was built in 
+                        compliance with the design brief.</p>
                     </div>
                 </div>
                 <div className="col-6">
@@ -31,21 +37,15 @@ const Experience = () => {
                         <div className="icon">
                             <FontAwesomeIcon icon={faBriefcase} color="#fff" />
                         </div>
-                        <span className="date">2018</span>
+                        <span className="date">2019</span>
                         <h2>IT Admin</h2>
                         <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Cornwall</span>
-                        <p>Responsible for managing and maintaining the company’s computer systems and networks, ensuring optimal performance, security and support for all users.</p>
-                    </div>
-                </div>
-                <div className="col-6">
-                    <div className="wrap">
-                        <div className="icon">
-                            <FontAwesomeIcon icon={faBriefcase} color="#fff" />
-                        </div>
-                        <span className="date">2017</span>
-                        <h2>Developer</h2>
-                        <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Cardiff</span>
-                        <p>Using HTML, CSS and JavaScript I developed front end elements of countless websites under the specifications laid out by the Design team. </p>
+                        <p>Here, as part of a small team I contributed to the installation, 
+                        configuration and maintenance of all aspects of hardware and 
+                        software including network installation and expansion, ensuring the 
+                        internal IT systems remained robust and efficient using a variety of 
+                        methods such as end user training, troubleshooting and network 
+                        management.</p>
                     </div>
                 </div>
                 <div className="col-6">
@@ -54,9 +54,20 @@ const Experience = () => {
                             <FontAwesomeIcon icon={faBriefcase} color="#fff" />
                         </div>
                         <span className="date">2015</span>
-                        <h2>Front End Developer</h2>
+                        <h2>Technical Support Specialist</h2>
+                        <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Caerphilly</span>
+                        <p></p>
+                    </div>
+                </div>
+                <div className="col-6">
+                    <div className="wrap">
+                        <div className="icon">
+                            <FontAwesomeIcon icon={faBriefcase} color="#fff" />
+                        </div>
+                        <span className="date">2014</span>
+                        <h2>1st Line Technical Support</h2>
                         <span className="location"><FontAwesomeIcon icon={faLocationPin} color="#d5c455" /> Cardiff</span>
-                        <p>Here I was responsible for designing and developing user facing elements for several client websites using HTML, CSS and Javascript. </p>
+                        <p></p>
                     </div>
                 </div>
                 <div className="col-6">
